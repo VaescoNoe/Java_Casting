@@ -17,6 +17,7 @@ public class Gerente extends Empleado{
 		this.departamento = departamento;
 	}
 	
+	@Override
 	public String toString(){
 		return super.toString()+"\nDepartamento: "+departamento;
 	}

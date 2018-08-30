@@ -20,6 +20,7 @@ public class Escritor extends Empleado{
 		return enumeration.getDescripcion();
 	}
 	
+	@Override
 	public String toString(){
 		return super.toString()+"\nTipo escritura: "+enumeration.getDescripcion();
 	}
